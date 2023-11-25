@@ -15,8 +15,6 @@ export const HomePage = () => {
     fetchJokes();
   }, []);
 
-  console.log(jokes);
-
   return (
     <div className="container">
       {jokes.map((joke) => {
